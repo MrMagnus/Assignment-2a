@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="yh.contactmanage.Activities.CreateContact" >
+
+    <item android:id="@+id/actionCreateAccept"
+        android:title=""
+        android:icon="@drawable/ic_action_accept"
+        android:orderInCategory="2"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/actionCreateCancel"
+        android:title=""
+        android:icon="@drawable/ic_action_cancel"
+        android:orderInCategory="2"
+        android:showAsAction="always" />
+</menu>

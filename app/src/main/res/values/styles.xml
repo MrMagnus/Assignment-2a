@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- My application theme. -->
+    <style name="CustomAppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarSplitStyle">@style/ActionSplitBar</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <!--<item name="android:actionMenuStyle">@style/ActionMenu</item>-->
+    </style>
+
+    <style name="ActionSplitBar" >
+        <item name="android:backgroundSplit">@color/actionBarColor</item>
+        <item name="android:maxHeight">300dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionBarColor</item>
+
+    </style>
+
+
+</resources>
